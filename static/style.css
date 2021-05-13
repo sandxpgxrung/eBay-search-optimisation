@@ -1,0 +1,101 @@
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: white;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
+.nav li {
+    float: left;
+    /*border-right: 1px solid #bbb;*/
+}
+.loginBar ul {
+    list-style-type: none;
+}
+.loginBar ul a {
+    color: grey;
+    padding: 0px 16px;
+    text-decoration: none;
+    float: right;
+    list-style-type: none;
+}
+.nav li a {
+    display: block;
+    color: grey;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: blue;
+    color: white;
+}
+.nav ul li .btn {
+    padding: 15px 30px;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    background-color: blue;
+    color: white;
+}
+.nav .s .s_sbt {
+    padding: 15px 30px;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*display: block;*/
+    background-color: blue;
+    color: white;
+}
+.nav ul li .s input[type="text"]{
+    height: 39px;
+    width: 300px;
+}
+.nav .filterDropDown .filterDropDown-content .sP input[type="text"]{
+    height: 39px;
+    width: 300px;
+}
+.def_item {
+    border-style: double;
+    font-family: Arial;
+    border-color: grey;
+}
+.nav .filterDropDown {
+    float: left;
+    overflow: auto;
+}
+.nav .filterDropDown .filterbtn {
+    border: none;
+    color: grey;
+    background-color: white;
+    padding: 15px 15px;
+
+}
+.filterDropDown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.filterDropDown-content a{
+    float: none;
+    color: grey;
+    background-color: white;
+    display: block;
+    text-align: left;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+.filterDropDown .filterbtn:hover {
+    background-color: blue;
+    color: white;
+}
+.filterDropDown:hover .filterDropDown-content{
+    display: block;
+}
+.helpindex {
+    font-family: Arial;
+}
