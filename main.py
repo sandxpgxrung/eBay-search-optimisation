@@ -8,18 +8,18 @@ app = Flask(__name__)
 @app.route("/home")
 @app.route("/homepage")
 def home():
-    items = search_items(request.args.get('search') or 'furniture')
-    return render_template("home.html", items=items)
-
-
-@app.route("/basket")
-def basket():
-    return render_template("basket.html")
+    def_items = search_items(request.args.get('search') or 'furniture')
+    return render_template("home.html", def_items=def_items)
 
 
 @app.route("/login")
 def login():
     return render_template("login.html")
+
+
+@app.route("/help")
+def helper():
+    return render_template("help.html")
 
 
 if __name__ == '__main__':
