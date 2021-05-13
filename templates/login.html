@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block head %}
+<!--<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css')}}">
+{% endblock %}
+{% block content %}
+    <div class="login-box">
+        <h1>Login</h1>
+        <div class="textbox">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="Username" name="" value="">
+        </div>
+
+        <div class="textbox">
+            <i class="fa fa-key"></i>
+            <input type="password" placeholder="Password" name="" value="">
+        </div>
+        <input class="loginBtn " type="button" name="" value="Sign in ">
+    </div>
+
+{% endblock %}
