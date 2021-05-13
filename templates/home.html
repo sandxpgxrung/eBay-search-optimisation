@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}home{% endblock %}
+{% block content %}
+<div class="items">
+    {% for def_item in def_items %}
+    <div class="def_item">
+        <p>Item: {{def_item.title.string.lower().strip()}}</p>
+        <p>Price: £{{def_item.currentprice.string}}</p>
+        <p>Type: {{def_item.listingtype.string}}</p>
+        <p>Seller: {{def_item.sellerusername.string}}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
