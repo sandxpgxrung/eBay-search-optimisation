@@ -1,3 +1,4 @@
+
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -67,6 +68,9 @@
 .nav .filterDropDown {
     float: left;
     overflow: auto;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .nav .filterDropDown .filterbtn {
     border: none;
