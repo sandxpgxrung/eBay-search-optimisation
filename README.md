@@ -1,2 +1,1 @@
-
-A prototype web-app for filtering eBay product search queries using genetic algorithm... see main.py for main code base
+This project entails around a proto-type web-application which mimics the search environment of an ecommerce platform. The solution is represented in the form of a specific search feature which enables users to find the maximum quantity of unique product(s) which they can obtain for a given price. The proposed solution is an innovative means of finding 'bang for a buck', as well as narrowing down search results to improve user-experience on the web. The core of this development strongly revolves around the application of genetic algorithms in opitmising combinatorial tasks. 
