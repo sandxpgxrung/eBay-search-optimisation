@@ -15,14 +15,3 @@ def search_items(keyword):
 if __name__ == '__main__':
     keyword_test = input('Enter your Keyword/s (ex: white piano):\n')
     items_test = search_items(keyword_test)
-
-    for item in items_test:
-        category = item.categoryname.string.lower()
-        title = item.title.string.lower().strip()
-        price = int(round(float(item.currentprice.string)))
-        url = item.viewitemurl.string.lower()
-        seller = item.sellerusername.string.lower()
-        listingType = item.listingtype.string.lower()
-        condition = item.conditiondisplayname.string.lower()
-
-        print(category, title, price, url, seller, listingType, condition)
